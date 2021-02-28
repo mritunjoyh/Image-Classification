@@ -1,0 +1,25 @@
+
+Confusion Matrix
+                     ,Actual NO,Actual Yes
+Predicted No,9,2
+Predicted Yes,0,127
+
+Classification Report 
+              precision    recall  f1-score   support
+
+           0       1.00      0.82      0.90        11
+           1       0.98      1.00      0.99       127
+
+    accuracy                           0.99       138
+   macro avg       0.99      0.91      0.95       138
+weighted avg       0.99      0.99      0.98       138
+
+Cross Value Score
+[0.97468354 1.         1.         0.98734177 0.98717949 1.
+ 1.        ]
+ Mean Cross Value Score 
+ 0.9927435433764548
+Accuracy Applying Normal KNN
+0.9855072463768116%
+Accuracy Applying Cross Validation
+0.9927435433764548%
